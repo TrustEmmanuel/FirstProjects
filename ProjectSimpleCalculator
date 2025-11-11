@@ -1,0 +1,20 @@
+public class ProjectSimpleCalculator
+    {
+        public static void main(String[] args)
+        {
+            //Declare Variables
+            int number1 = 15;
+            int number2 = 15;
+            int number3 = 15;
+
+            //Performance Operators
+            int addition =  number1 +number2;
+            int subtraction = number3 - number2;
+            int multiplication = number2 * number1;
+
+            //Print Out Results
+            System.out.println("Result for Addition:"  + addition);
+            System.out.println("Result for Subtraction:"  + subtraction);
+            System.out.println("Result for Multiplication:"  + multiplication);
+
+        }
